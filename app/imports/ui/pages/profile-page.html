@@ -1,3 +1,24 @@
 <template name="Profile_Page">
-
+  <img class="ui small centered image" src="/images/profile-icon.png">
+  <h3 style="text-align: center">username</h3>
+  <h3 style="text-align: center">email</h3>
+  <hr>
+  <h3 style="text-align: center">username's Listings</h3>
+  <div class="ui stackable four column grid container">
+    <div class="column">
+      <div class="ui image">
+        <a class="ui left corner label" href="{{pathFor 'Edit_Listing_Page'}}">
+          <i class="edit icon"></i>
+        </a>
+        <img class="ui small image" src="/images/BotW.jpg">
+      </div>
+      <a class="item" href="{{pathFor 'Listing_Page'}}">Legend of Zelda BotW for Switch</a>
+      <p>$60</p>
+    </div>
+    <div class="column">
+      <img class="ui small image" src="/images/question-block-light.jpg">
+      <p>Question Block Light</p>
+      <p>$40</p>
+    </div>
+  </div>
 </template>

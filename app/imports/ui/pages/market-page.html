@@ -1,36 +1,49 @@
 <template name="Market_Page">
+  <div style="padding: 20px 20px 20px 20px" class="ui search">
+    <input class="prompt" type="text" placeholder="Search">
+    <div class="results"></div>
+  </div>
   <div class="ui stackable four column grid container">
     <div class="column">
       <img class="ui small image" src="/images/BotW.jpg">
-      <a class="item" href="{{pathFor 'Listing_Page'}}">Item 1</a>
+      <a class="item" href="{{pathFor 'Listing_Page'}}">Legend of Zelda BotW for Switch</a>
+      <p>$60</p>
     </div>
     <div class="column">
       <img class="ui small image" src="/images/guitar.jpg">
-      Item 2
+      <p>Guitar</p>
+      <p>$300</p>
     </div>
     <div class="column">
       <img class="ui small image" src="/images/magazine-rack.jpg">
-      Item 3
+      <p>Magazine holders</p>
+      <p>$15</p>
     </div>
     <div class="column">
       <img class="ui small image" src="/images/marvel-encyclopedia.jpg">
-      Item 4
+      <p>Marvel Encyclopedia</p>
+      <p>$50</p>
     </div>
     <div class="column">
       <img class="ui small image" src="/images/pumps.jpg">
-      Item 5
+      <p>black pumps</p>
+      <p>$25</p>
     </div>
     <div class="column">
       <img class="ui small image" src="/images/question-block-light.jpg">
-      Item 6
+      <p>Question Block Light</p>
+      <p>$40</p>
     </div>
     <div class="column">
       <img class="ui small image" src="/images/space-oddessy.jpg">
-      Item 7
+      <p>2001 A Space Oddessy</p>
+      <p>$20</p>
     </div>
     <div class="column">
       <img class="ui small image" src="/images/tank-top.jpg">
-      Item 8
+      <p>Tank Top</p>
+      <p>$15</p>
     </div>
   </div>
+  <div style="padding-top: 15px" class="ui center aligned container">Next Page</div>
 </template>
