@@ -2,11 +2,11 @@
 
 ## Landing Page
 
-<img class="ui image" src="/mockup/landing.png">
+
 
 ## Market Page
 
-<img class="ui image" src="/mockup/market.png">
+
 
 ## Listing Page
 
@@ -22,7 +22,7 @@
 
 ## Profile Page
 
-<img class="ui image" src="/mockup/profile.png">
+
 
 ## Edit Profile Page
 
