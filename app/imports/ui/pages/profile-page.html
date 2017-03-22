@@ -6,22 +6,39 @@
   <h3 style="text-align: center">username's Listings</h3>
   <div class="ui stackable four column grid container">
     <div class="column">
-      <div class="ui image">
-        <a class="ui left corner label" href="{{pathFor 'Edit_Listing_Page'}}">
-          <i class="edit icon"></i>
-        </a>
-        <img class="ui small image" src="/images/BotW.jpg">
+      <div class="ui card">
+        <div class="image">
+          <a class="ui left corner label" href="{{pathFor 'Edit_Listing_Page'}}">
+            <i class="edit icon"></i>
+          </a>
+          <img src="/images/BotW.jpg">
+        </div>
+        <div class="content">
+          <a href="{{pathFor 'Listing_Page'}}" class="header">Legend of Zelda BotW for Switch</a>
+          <div class="meta">
+            <span class="price">$60</span>
+          </div>
+          <div class="description">
+            New unopened copy of the new Zelda game for Nintendo Switch
+          </div>
+        </div>
       </div>
-      <a class="item" href="{{pathFor 'Listing_Page'}}">Legend of Zelda BotW for Switch</a>
-      <p>$60</p>
     </div>
     <div class="column">
-      <img class="ui small image" src="/images/question-block-light.jpg">
-      <p>Question Block Light</p>
-      <p>$40</p>
+      <div class="ui card">
+        <div class="image">
+          <img src="/images/question-block-light.jpg">
+        </div>
+        <div class="content">
+          <a class="header">Question Block Light</a>
+          <div class="meta">
+            <span class="price">$40</span>
+          </div>
+          <div class="description">
+            Description
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <hr>
-  <h3 style="text-align: center">Your Tags</h3>
-
 </template>
